@@ -3,11 +3,11 @@ This portfolio showcases two interrelated projects that represent my journey as 
 ## Custom Game Engine
 My custom 3D game engine is a testament to my passion for creating flexible and efficient development tools. Written in C++, the engine encompasses approximately 15,000 lines of thoroughly tested code and is designed with modularity and cross-compatibility in mind. The engine features a basic rendering system that, while not the primary focus of my work, serves its purpose well and is entirely agnostic to the underlying graphics API. Complementing the rendering capabilities is a sophisticated asset management system that efficiently handles the loading and organization of diverse game resources. Additionally, I integrated C# scripting via Mono, which allows for rapid prototyping and more dynamic game logic, and incorporated 2D physics using Box2D alongside crisp text rendering through msdfgen. A proper build system underpins the project, ensuring that development remains organized and scalable. I am currently working on new features such as audio support, skeletal animations, and a dedicated UI framework to further enhance the engine’s capabilities.
 
-![[Engine.png]]
+![](Engine.png)
 ## Multiplayer Voxel RPG
 I have also been developing a multiplayer RPG that utilizes the custom engine as its foundation, and it has been instrumental in shaping my approach to coding and design. Initially, the game began its life as a standard Unity project before evolving through experimentation with Unity’s Data Oriented Technology Stack (DOTS), which was cutting edge at the time. This exploration led me to appreciate the advantages of the Entity Component System (ECS) model, particularly its performance benefits and developer-friendly structure. Recognizing that DOTS was still maturing and that much of the engine’s functionality was not being utilized by this project, I made the strategic decision to develop my own game engine tailored specifically to my needs. The game now features a robust multiplayer architecture that incorporates advanced techniques such as client-side prediction and server reconciliation, all built on a UDP packet transport system to ensure the best possible player experience. The world itself is procedurally generated, with a 3D voxel terrain that is efficiently constructed on the fly and is fully editable in real time. Modifications are treated as first-class elements within the game’s design, drawing on insights from experienced mod developers to ensure extensibility and ease of use. Extensive design documents accompany the project, meticulously outlining the envisioned final product, even though I estimate that the game is still less than 20% complete.
 
-![[Game.png]]
+![](Game.png)
 
 ---
 
